@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+#page-heading {
+  text-align: center;
+  color: gray;
+  margin-top: 25px;
+}
+
+#container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0px;
+  padding: 0px;
+  align-items: center;
+}
+
+#container li {
+  display: flex;
+  justify-content: space-around;
+  background-color: #03b6fc;
+  color: white;
+  margin-bottom: 10px;
+  width: 450px;
+  border-radius: 4px;
+  box-shadow: 5px 10px white;
+}
+#container :hover {
+  background-color: gray;
+}
+
+#new-contact-form {
+  text-align: center;
+}
